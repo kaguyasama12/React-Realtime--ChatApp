@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,300");
+html {
+  height: 100%;
+}
+
+
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url(../../images/chatDarkBlue.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../../images/chatDarkBlue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+hr {
+  border: 0.1px solid white;
+}
+
+.frame {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+  width: 600px;
+  height: 400px;
+  margin-top: -200;
+  margin-left: -200px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.ion-ios-game-controller-b {
+  color: #000;
+}
+
+.option {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.opt-1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.opt-2 {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.create {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-color: white;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.create:hover {
+  background: white;
+  color: black;
+}
+
+.find {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-color: white;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.find:hover {
+  background: white;
+  color: black;
+}
+
+.back {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.go-back {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-color: white;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.go-back:hover {
+  background: white;
+  color: black;
+}
